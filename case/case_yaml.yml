@@ -1,0 +1,29 @@
+﻿get_code:
+  -
+    name: 获取code
+    request:
+      url: http://101.133.235.37:9970/api/user/sendSms
+      mothod: post
+      data:
+        mobile: '18171213002'
+        event: login
+    assert: None
+
+get_token:
+  -
+    name: 获取token
+    request:
+      url: http://101.133.235.37:9970/api/user/login
+      mothod: post
+      data:
+        username: '18171213002'
+    assert: None
+
+login:
+  -
+    name: 获取用户信息
+    request:
+      url: http://101.133.235.37:9970/api/user/userInfo
+      mothod: get
+      data: None
+    assert: None

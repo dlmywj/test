@@ -22,7 +22,18 @@ class yamlutil():
         with open(os.getcwd()+'\\extract.yaml',mode='w',encoding='utf-8') as f:
             f.truncate()
 
+    # 读取case_yaml.yml文件
+    def read_ecase_yaml(self,filename):
+        with open('D:\\soft\\test\\pycharm\\pycharm-project\\case\\'+filename, mode='r', encoding='utf-8') as f:
+            value = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
+            return value;
 
+    # 读取一个yaml文件中多个接口用例的方法
+    def read_ecase_more(self,filename,groupname):
+        with open('D:\\soft\\test\\pycharm\\pycharm-project\\case\\'+filename, mode='r', encoding='utf-8') as f:
+            info = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
+            value = info[groupname]
+            return value;
 
 
 
