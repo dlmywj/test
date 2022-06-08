@@ -3,18 +3,17 @@
 import json
 import requests
 from common.yaml_util import yamlutil
+import pytest
 
 
 class Test_request():
 
-
-    def test_code(self):
-        url = 'http://101.133.235.37:9970/api/user/sendSms'
-        data = {
-                "mobile": "15233385230",
-                "event": "login"
-        }
-        rep = requests.request('post',url=url,json=data)
+    @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','get_code'))
+    def test_code(self,caseinfo):
+        mothod= caseinfo['request']['mothod']
+        url = caseinfo['request']['url']
+        data = caseinfo['request']['data']
+        rep = requests.request(mothod,url=url,json=data)
         # 获取验证码code
         print(rep.json())
         assert 'code' in rep.json()
@@ -24,16 +23,17 @@ class Test_request():
         except:
             raise FileNotFoundError('验证频繁，请稍后再试')
 
-
-    def test_post_token(self):
-        url = 'http://101.133.235.37:9970/api/user/login'
-        data = {
-            'username': '15233385230',
-            'code': yamlutil().read_extract_yaml('code')
-        }
-        rep = requests.request("post",url=url, json=data)
+    @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','get_token'))
+    def test_post_token(self,caseinfo):
+        mothod = caseinfo['request']['mothod']
+        url = caseinfo['request']['url']
+        # data = {}
+        # data.update(caseinfo['request']['data'])
+        # data.update({'code':yamlutil().read_extract_yaml("code")})
+        data=dict(**caseinfo['request']['data'],**{'code':yamlutil().read_extract_yaml("code")})
+        rep = requests.request(mothod,url=url,json=data)
         # 前端登录，获取token
-        # print(rep.json()["data"]["token"])
+        print(rep.json()["data"]["token"])
 
         try:
             yamlutil().write_extract_yaml({'token': rep.json()["data"]["token"]})
@@ -42,12 +42,15 @@ class Test_request():
         except:
             raise  FileNotFoundError('未获取到token')
 
-    def test_get(self):
-            url = 'http://101.133.235.37:9970/api/user/userInfo'
+
+    @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','login'))
+    def test_get(self,caseinfo):
+            url = caseinfo['request']['url']
+            mothod = caseinfo['request']['mothod']
             headers={
                 'x-token':yamlutil().read_extract_yaml('token')
             }
-            rep = requests.request('get',url=url,headers=headers)
+            rep = requests.request(mothod,url=url,headers=headers)
             # 获取用户信息
             print(rep.json())
 
