@@ -1,0 +1,69 @@
+{
+  "uid" : "13f3411e75e8cfcf",
+  "name" : "test_post_token",
+  "fullName" : "API_test.test_api.Test_request#test_post_token",
+  "historyId" : "84fad21087156c14dffc4518679c3a4c",
+  "time" : {
+    "start" : 1654691021305,
+    "stop" : 1654691021380,
+    "duration" : 75
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "clear_extract_yaml",
+    "time" : {
+      "start" : 1654691020912,
+      "stop" : 1654691020913,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "API_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_request"
+  }, {
+    "name" : "host",
+    "value" : "ywj"
+  }, {
+    "name" : "thread",
+    "value" : "16880-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "API_test.test_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13f3411e75e8cfcf.json",
+  "parameterValues" : [ ]
+}

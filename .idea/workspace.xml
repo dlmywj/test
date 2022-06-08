@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2A3gfiQPfNWjKRc0sMZTGJsP7SW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Python.all">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_test/test_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\soft\test\pycharm\pycharm-project\API_test\test_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\soft\test\pycharm\pycharm-project\API_test\test_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.all" />
+        <item itemvalue="Python.test_api (1)" />
+        <item itemvalue="Python.test_api" />
+        <item itemvalue="Python.2" />
+        <item itemvalue="Python.test_api" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="" />
+      <created>1654243787378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654243787378</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654601454333">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.952@0.0.1600.952" timestamp="1654601454333" />
+    <state width="1580" height="351" key="GridCell.Tab.0.bottom" timestamp="1654691216045">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="351" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654691216045" />
+    <state width="1580" height="351" key="GridCell.Tab.0.center" timestamp="1654691216045">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="351" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1654691216045" />
+    <state width="1580" height="351" key="GridCell.Tab.0.left" timestamp="1654691216045">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="351" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1654691216045" />
+    <state width="1580" height="351" key="GridCell.Tab.0.right" timestamp="1654691216045">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="351" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1654691216045" />
+    <state width="1580" height="395" key="GridCell.Tab.1.bottom" timestamp="1654690889444">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="395" key="GridCell.Tab.1.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654690889444" />
+    <state width="1580" height="395" key="GridCell.Tab.1.center" timestamp="1654690889444">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="395" key="GridCell.Tab.1.center/0.0.1600.952@0.0.1600.952" timestamp="1654690889444" />
+    <state width="1580" height="395" key="GridCell.Tab.1.left" timestamp="1654690889444">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="395" key="GridCell.Tab.1.left/0.0.1600.952@0.0.1600.952" timestamp="1654690889444" />
+    <state width="1580" height="395" key="GridCell.Tab.1.right" timestamp="1654690889444">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state width="1580" height="395" key="GridCell.Tab.1.right/0.0.1600.952@0.0.1600.952" timestamp="1654690889444" />
+    <state x="303" y="119" key="SettingsEditor" timestamp="1654691717398">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="303" y="119" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1654691717398" />
+    <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1654690904408">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="485" y="302" key="com.intellij.ide.util.TipDialog/0.0.1600.952@0.0.1600.952" timestamp="1654690904408" />
+  </component>
+</project>
