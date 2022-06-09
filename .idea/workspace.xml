@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。">
-      <change afterPath="$PROJECT_DIR$/123.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/sent_email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/the_path.py" afterDir="false" />
+    <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/yaml_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/extract.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654699138292</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类">
+      <created>1654780109385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654780109386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类">
+      <created>1654780147800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654780147800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -214,17 +223,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="哈哈哈哈哈" />
     <MESSAGE value="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。" />
+    <MESSAGE value="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类" />
   </component>
   <component name="WindowStateProjectService">
     <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654601454333">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.952@0.0.1600.952" timestamp="1654601454333" />
-    <state x="212" y="51" key="CommitChangelistDialog2" timestamp="1654780108879">
+    <state x="212" y="51" key="CommitChangelistDialog2" timestamp="1654780147425">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="212" y="51" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1654780108879" />
+    <state x="212" y="51" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1654780147425" />
     <state width="1580" height="247" key="GridCell.Tab.0.bottom" timestamp="1654779921732">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
@@ -261,10 +271,10 @@
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="303" y="119" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1654691717398" />
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654699147651">
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654780161030">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654699147651" />
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654780161030" />
     <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1654779933026">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
