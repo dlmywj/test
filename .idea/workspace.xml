@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="哈哈哈哈哈">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case/case_yaml.yml" afterDir="false" />
+    <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。">
+      <change afterPath="$PROJECT_DIR$/123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/sent_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/the_path.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_test/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/case/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API_test/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all.py" beforeDir="false" afterPath="$PROJECT_DIR$/all.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/yaml_util.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/extract.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.all">
+  <component name="RunManager" selected="Python.sent_email">
     <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pycharm-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +71,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sent_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pycharm-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sent_email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sent_email" />
         <item itemvalue="Python.all" />
         <item itemvalue="Python.test_api (1)" />
         <item itemvalue="Python.test_api" />
         <item itemvalue="Python.2" />
-        <item itemvalue="Python.test_api" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654693157645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="哈哈哈哈哈">
+      <created>1654698927429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654698927429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。">
+      <created>1654699138292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654699138292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -181,61 +213,62 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="哈哈哈哈哈" />
-    <option name="LAST_COMMIT_MESSAGE" value="哈哈哈哈哈" />
+    <MESSAGE value="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654601454333">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.952@0.0.1600.952" timestamp="1654601454333" />
-    <state x="442" y="69" key="CommitChangelistDialog2" timestamp="1654698926766">
+    <state x="442" y="69" key="CommitChangelistDialog2" timestamp="1654777760835">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="442" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1654698926766" />
-    <state width="1580" height="165" key="GridCell.Tab.0.bottom" timestamp="1654698654906">
+    <state x="442" y="69" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1654777760835" />
+    <state width="1580" height="247" key="GridCell.Tab.0.bottom" timestamp="1654779921732">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="165" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654698654906" />
-    <state width="1580" height="165" key="GridCell.Tab.0.center" timestamp="1654698654906">
+    <state width="1580" height="247" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
+    <state width="1580" height="247" key="GridCell.Tab.0.center" timestamp="1654779921732">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="165" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1654698654906" />
-    <state width="1580" height="165" key="GridCell.Tab.0.left" timestamp="1654698654906">
+    <state width="1580" height="247" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
+    <state width="1580" height="247" key="GridCell.Tab.0.left" timestamp="1654779921732">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="165" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1654698654906" />
-    <state width="1580" height="165" key="GridCell.Tab.0.right" timestamp="1654698654906">
+    <state width="1580" height="247" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
+    <state width="1580" height="247" key="GridCell.Tab.0.right" timestamp="1654779921732">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="165" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1654698654906" />
-    <state width="1580" height="457" key="GridCell.Tab.1.bottom" timestamp="1654697727462">
+    <state width="1580" height="247" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
+    <state width="1580" height="457" key="GridCell.Tab.1.bottom" timestamp="1654699275844">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654697727462" />
-    <state width="1580" height="457" key="GridCell.Tab.1.center" timestamp="1654697727462">
+    <state width="1580" height="457" key="GridCell.Tab.1.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
+    <state width="1580" height="457" key="GridCell.Tab.1.center" timestamp="1654699275844">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.center/0.0.1600.952@0.0.1600.952" timestamp="1654697727462" />
-    <state width="1580" height="457" key="GridCell.Tab.1.left" timestamp="1654697727462">
+    <state width="1580" height="457" key="GridCell.Tab.1.center/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
+    <state width="1580" height="457" key="GridCell.Tab.1.left" timestamp="1654699275844">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.left/0.0.1600.952@0.0.1600.952" timestamp="1654697727462" />
-    <state width="1580" height="457" key="GridCell.Tab.1.right" timestamp="1654697727462">
+    <state width="1580" height="457" key="GridCell.Tab.1.left/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
+    <state width="1580" height="457" key="GridCell.Tab.1.right" timestamp="1654699275844">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.right/0.0.1600.952@0.0.1600.952" timestamp="1654697727462" />
+    <state width="1580" height="457" key="GridCell.Tab.1.right/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
     <state x="303" y="119" key="SettingsEditor" timestamp="1654691717398">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="303" y="119" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1654691717398" />
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654698931836">
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654699147651">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654698931836" />
-    <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1654690904408">
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654699147651" />
+    <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1654779933026">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="485" y="302" key="com.intellij.ide.util.TipDialog/0.0.1600.952@0.0.1600.952" timestamp="1654690904408" />
+    <state x="485" y="302" key="com.intellij.ide.util.TipDialog/0.0.1600.952@0.0.1600.952" timestamp="1654779933026" />
     <state x="463" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1654696548715">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
