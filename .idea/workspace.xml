@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbc3322-f3ac-4b42-b04d-0297e680d777" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/sent_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/sent_email.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunManager">
     <configuration name="sent_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -76,47 +74,55 @@
       <option name="project" value="LOCAL" />
       <updated>1654827871412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. 修改了发送邮件中附件的地址">
+      <created>1654830171440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654830171440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="1. 修改了发送邮件中附件的地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 修改了发送邮件中附件的地址" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="620" y="112" key="CommitChangelistDialog2" timestamp="1654827870453">
+    <state x="232" y="173" width="680" height="785" key="CommitChangelistDialog2" timestamp="1654830170804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="620" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1654827870453" />
-    <state width="1899" height="177" key="GridCell.Tab.0.bottom" timestamp="1654829909077">
+    <state x="232" y="173" width="680" height="785" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1654830170804" />
+    <state width="1899" height="177" key="GridCell.Tab.0.bottom" timestamp="1654830895007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="177" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654829909077" />
-    <state width="1899" height="177" key="GridCell.Tab.0.center" timestamp="1654829909076">
+    <state width="1899" height="177" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654830895007" />
+    <state width="1899" height="177" key="GridCell.Tab.0.center" timestamp="1654830895007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="177" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654829909076" />
-    <state width="1899" height="177" key="GridCell.Tab.0.left" timestamp="1654829909076">
+    <state width="1899" height="177" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654830895007" />
+    <state width="1899" height="177" key="GridCell.Tab.0.left" timestamp="1654830895007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="177" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654829909076" />
-    <state width="1899" height="177" key="GridCell.Tab.0.right" timestamp="1654829909076">
+    <state width="1899" height="177" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654830895007" />
+    <state width="1899" height="177" key="GridCell.Tab.0.right" timestamp="1654830895007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="177" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654829909076" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1654827958799">
+    <state width="1899" height="177" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654830895007" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1654842960888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654827958799" />
-    <state x="316" y="339" key="Vcs.Push.Dialog.v2" timestamp="1654830051884">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654842960888" />
+    <state x="316" y="339" key="Vcs.Push.Dialog.v2" timestamp="1654830174476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="316" y="339" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654830051884" />
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1654827797702">
+    <state x="316" y="339" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654830174476" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1654839773740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654827797702" />
+    <state x="658" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654839773740" />
     <state x="698" y="311" key="git4idea.merge.GitPullDialog" timestamp="1654827815782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
