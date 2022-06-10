@@ -13,7 +13,7 @@ class sendemailutil():
 
     def sendqq(self,emailpeople,file):     #接收者；附件
 
-        mineemail = '980975647@qq.com'
+        mineemail = '980975647@qq.com' #我的账号
         pwd = 'vcjggwbfxecabfbb'
         now = time.strftime('%Y-%m—%d-%H-%M-%S')
 
