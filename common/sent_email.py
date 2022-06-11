@@ -5,6 +5,7 @@ import time
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from common.the_path import path_util
 
 
 class sendemailutil():
@@ -13,7 +14,7 @@ class sendemailutil():
 
     def sendqq(self,emailpeople,file):     #接收者；附件
 
-        mineemail = '980975647@qq.com'
+        mineemail = '980975647@qq.com' #我的账号
         pwd = 'vcjggwbfxecabfbb'
         now = time.strftime('%Y-%m—%d-%H-%M-%S')
 
@@ -51,8 +52,10 @@ class sendemailutil():
 
 
 if __name__ == '__main__':
-    sendemailutil().sendqq("980975647@qq.com",r"D:\soft\test\pycharm\pycharm-project\123.txt")
-    sendemailutil().sendqq("1571754405@qq.com",r"D:\soft\test\pycharm\pycharm-project\123.txt")
+    sendemailutil().sendqq('980975647@qq.com',path_util().get_path()+'\\123.txt')
+    sendemailutil().sendqq('1571754405@qq.com',path_util().get_path()+'\\123.txt')
+    # sendemailutil().sendqq("980975647@qq.com",r"C:\Users\Administrator\PycharmProjects\test\123.txt")
+    # sendemailutil().sendqq("1571754405@qq.com",r"C:\Users\Administrator\PycharmProjects\test\123.txt")
     print("配置文件调试成功")
 
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.txt" beforeDir="false" afterPath="$PROJECT_DIR$/123.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,18 +271,14 @@
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="303" y="119" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1654691717398" />
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654910712611">
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654780161030">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654910712611" />
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654780161030" />
     <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1654779933026">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="485" y="302" key="com.intellij.ide.util.TipDialog/0.0.1600.952@0.0.1600.952" timestamp="1654779933026" />
-    <state x="541" y="268" key="git4idea.merge.GitPullDialog" timestamp="1654910693916">
-      <screen x="0" y="0" width="1600" height="952" />
-    </state>
-    <state x="541" y="268" key="git4idea.merge.GitPullDialog/0.0.1600.952@0.0.1600.952" timestamp="1654910693916" />
     <state x="463" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1654696548715">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
