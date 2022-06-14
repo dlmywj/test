@@ -5,7 +5,7 @@
       url: http://101.133.235.37:9970/api/user/sendSms
       mothod: post
       data:
-        mobile: '18171213002'
+        mobile: '15717823601'
         event: login
     assert: None
 
@@ -16,7 +16,7 @@ get_token:
       url: http://101.133.235.37:9970/api/user/login
       mothod: post
       data:
-        username: '18171213002'
+        username: '15717823601'
     assert: None
 
 login:

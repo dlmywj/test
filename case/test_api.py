@@ -18,41 +18,42 @@ class Test_request():
         print(rep.json())
         assert 'code' in rep.json()
 
-        try:
-            yamlutil().write_extract_yaml({'code':rep.json()['data']['code']['code']})
-        except:
-            raise FileNotFoundError('验证频繁，请稍后再试')
+        # try:
+        #     yamlutil().write_extract_yaml({'code':rep.json()['data']['code']['code']})
+        #
+        # except:
+        #     raise FileNotFoundError('验证频繁，请稍后再试')
 
-    @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','get_token'))
-    def test_post_token(self,caseinfo):
-        mothod = caseinfo['request']['mothod']
-        url = caseinfo['request']['url']
-        # data = {}
-        # data.update(caseinfo['request']['data'])
-        # data.update({'code':yamlutil().read_extract_yaml("code")})
-        data=dict(**caseinfo['request']['data'],**{'code':yamlutil().read_extract_yaml("code")})
-        rep = requests.request(mothod,url=url,json=data)
-        # 前端登录，获取token
-        print(rep.json()["data"]["token"])
-
-        try:
-            yamlutil().write_extract_yaml({'token': rep.json()["data"]["token"]})
-            # a=yamlutil().read_extract_yaml('token')
-            # print(a)
-        except:
-            raise  FileNotFoundError('未获取到token')
-
-
-    @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','login'))
-    def test_get(self,caseinfo):
-            url = caseinfo['request']['url']
-            mothod = caseinfo['request']['mothod']
-            headers={
-                'x-token':yamlutil().read_extract_yaml('token')
-            }
-            rep = requests.request(mothod,url=url,headers=headers)
-            # 获取用户信息
-            print(rep.json())
+    # @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','get_token'))
+    # def test_post_token(self,caseinfo):
+    #     mothod = caseinfo['request']['mothod']
+    #     url = caseinfo['request']['url']
+    #     # data = {}
+    #     # data.update(caseinfo['request']['data'])
+    #     # data.update({'code':yamlutil().read_extract_yaml("code")})
+    #     data=dict(**caseinfo['request']['data'],**{'code':yamlutil().read_extract_yaml("code")})
+    #     rep = requests.request(mothod,url=url,json=data)
+    #     # 前端登录，获取token
+    #     print(rep.json()["data"]["token"])
+    #
+    #     try:
+    #         yamlutil().write_extract_yaml({'token': rep.json()["data"]["token"]})
+    #         # a=yamlutil().read_extract_yaml('token')
+    #         # print(a)
+    #     except:
+    #         raise  FileNotFoundError('未获取到token')
+    #
+    #
+    # @pytest.mark.parametrize('caseinfo',yamlutil().read_ecase_more('case_yaml.yml','login'))
+    # def test_get(self,caseinfo,conn_database):
+    #         url = caseinfo['request']['url']
+    #         mothod = caseinfo['request']['mothod']
+    #         headers={
+    #             'x-token':yamlutil().read_extract_yaml('token')
+    #         }
+    #         rep = requests.request(mothod,url=url,headers=headers)
+    #         # 获取用户信息
+    #         print(rep.json())
 
 
 # url='http://101.133.235.37:9970/api/user/login'
@@ -69,7 +70,7 @@ class Test_request():
 # requests.delete()
 # requests.put()
 # requests.request()
-# # 响应
+# # # 响应
 # rep=requests.request()
 # print(rep.json())
 # print(rep.text)

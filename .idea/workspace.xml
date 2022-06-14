@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20cb4f3-a0e4-457f-879f-fd02fd063157" name="Default Changelist" comment="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类">
+      <change afterPath="$PROJECT_DIR$/common/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/logutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/signutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/case_yaml.yml" beforeDir="false" afterPath="$PROJECT_DIR$/case/case_yaml.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/yaml_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/extract.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,49 +30,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2A3gfiQPfNWjKRc0sMZTGJsP7SW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.sent_email">
-    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.signutil">
     <configuration name="all" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm-project" />
+      <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\soft\test\pycharm\pycharm-project\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all.py" />
@@ -74,8 +66,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sent_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm-project" />
+    <configuration name="logutil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -86,7 +78,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logutil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sent_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\soft\test\pycharm\pycharm-project\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sent_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="signutil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/signutil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,34 +171,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pycharm-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\soft\test\pycharm\pycharm-project\API_test\test_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sent_email" />
+        <item itemvalue="Python.signutil" />
         <item itemvalue="Python.all" />
+        <item itemvalue="Python.logutil" />
+        <item itemvalue="Python.sent_email" />
         <item itemvalue="Python.test_api (1)" />
-        <item itemvalue="Python.test_api" />
-        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>
@@ -214,71 +227,91 @@
       <option name="project" value="LOCAL" />
       <updated>1654780147800</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类">
+      <created>1654910754529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654910754529</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="哈哈哈哈哈" />
     <MESSAGE value="1.一个yml文件中包含多个接口用例，并通过pytest框架运行成功；&#10;2.运行接口需要的变量参数，直接在用例框架中生成，并未在yml用例文件中生成；&#10;3.优化生成变量参数的代码。" />
     <MESSAGE value="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类" />
     <option name="LAST_COMMIT_MESSAGE" value="1.增加了测试报告直接发送至邮箱的文件 .\common\sent_email.py&#10;2.读取yml文件时,路径改为绝对路径,增加新的类" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="547" y="102" key="#all" timestamp="1655211371890">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="547" y="102" key="#all/0.0.1600.952@0.0.1600.952" timestamp="1655211371890" />
     <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654601454333">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
     <state x="641" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.952@0.0.1600.952" timestamp="1654601454333" />
-    <state x="212" y="51" key="CommitChangelistDialog2" timestamp="1654780147425">
+    <state x="547" y="102" key="#sent_email" timestamp="1654912499252">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="212" y="51" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1654780147425" />
-    <state width="1580" height="247" key="GridCell.Tab.0.bottom" timestamp="1654779921732">
+    <state x="547" y="102" key="#sent_email/0.0.1600.952@0.0.1600.952" timestamp="1654912499252" />
+    <state x="212" y="51" key="CommitChangelistDialog2" timestamp="1655214804864">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="247" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
-    <state width="1580" height="247" key="GridCell.Tab.0.center" timestamp="1654779921732">
+    <state x="212" y="51" key="CommitChangelistDialog2/0.0.1600.952@0.0.1600.952" timestamp="1655214804864" />
+    <state width="1580" height="236" key="GridCell.Tab.0.bottom" timestamp="1655214563127">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="247" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
-    <state width="1580" height="247" key="GridCell.Tab.0.left" timestamp="1654779921732">
+    <state width="1580" height="236" key="GridCell.Tab.0.bottom/0.0.1600.952@0.0.1600.952" timestamp="1655214563127" />
+    <state width="1580" height="236" key="GridCell.Tab.0.center" timestamp="1655214563127">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="247" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
-    <state width="1580" height="247" key="GridCell.Tab.0.right" timestamp="1654779921732">
+    <state width="1580" height="236" key="GridCell.Tab.0.center/0.0.1600.952@0.0.1600.952" timestamp="1655214563127" />
+    <state width="1580" height="236" key="GridCell.Tab.0.left" timestamp="1655214563127">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="247" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1654779921732" />
-    <state width="1580" height="457" key="GridCell.Tab.1.bottom" timestamp="1654699275844">
+    <state width="1580" height="236" key="GridCell.Tab.0.left/0.0.1600.952@0.0.1600.952" timestamp="1655214563127" />
+    <state width="1580" height="236" key="GridCell.Tab.0.right" timestamp="1655214563127">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.bottom/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
-    <state width="1580" height="457" key="GridCell.Tab.1.center" timestamp="1654699275844">
+    <state width="1580" height="236" key="GridCell.Tab.0.right/0.0.1600.952@0.0.1600.952" timestamp="1655214563127" />
+    <state width="1580" height="169" key="GridCell.Tab.1.bottom" timestamp="1655214117937">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.center/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
-    <state width="1580" height="457" key="GridCell.Tab.1.left" timestamp="1654699275844">
+    <state width="1580" height="169" key="GridCell.Tab.1.bottom/0.0.1600.952@0.0.1600.952" timestamp="1655214117937" />
+    <state width="1580" height="169" key="GridCell.Tab.1.center" timestamp="1655214117937">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.left/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
-    <state width="1580" height="457" key="GridCell.Tab.1.right" timestamp="1654699275844">
+    <state width="1580" height="169" key="GridCell.Tab.1.center/0.0.1600.952@0.0.1600.952" timestamp="1655214117937" />
+    <state width="1580" height="169" key="GridCell.Tab.1.left" timestamp="1655214117937">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state width="1580" height="457" key="GridCell.Tab.1.right/0.0.1600.952@0.0.1600.952" timestamp="1654699275844" />
-    <state x="303" y="119" key="SettingsEditor" timestamp="1654691717398">
+    <state width="1580" height="169" key="GridCell.Tab.1.left/0.0.1600.952@0.0.1600.952" timestamp="1655214117937" />
+    <state width="1580" height="169" key="GridCell.Tab.1.right" timestamp="1655214117937">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="303" y="119" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1654691717398" />
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654780161030">
+    <state width="1580" height="169" key="GridCell.Tab.1.right/0.0.1600.952@0.0.1600.952" timestamp="1655214117937" />
+    <state x="303" y="119" key="SettingsEditor" timestamp="1654912452498">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654780161030" />
-    <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1654779933026">
+    <state x="303" y="119" key="SettingsEditor/0.0.1600.952@0.0.1600.952" timestamp="1654912452498" />
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2" timestamp="1654911045811">
       <screen x="0" y="0" width="1600" height="952" />
     </state>
-    <state x="485" y="302" key="com.intellij.ide.util.TipDialog/0.0.1600.952@0.0.1600.952" timestamp="1654779933026" />
+    <state x="393" y="210" key="Vcs.Push.Dialog.v2/0.0.1600.952@0.0.1600.952" timestamp="1654911045811" />
+    <state x="485" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1655205880086">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="485" y="302" key="com.intellij.ide.util.TipDialog/0.0.1600.952@0.0.1600.952" timestamp="1655205880086" />
+    <state x="274" y="324" key="git4idea.ui.GitUnstashDialog" timestamp="1654911034710">
+      <screen x="0" y="0" width="1600" height="952" />
+    </state>
+    <state x="274" y="324" key="git4idea.ui.GitUnstashDialog/0.0.1600.952@0.0.1600.952" timestamp="1654911034710" />
     <state x="463" y="204" width="672" height="678" key="search.everywhere.popup" timestamp="1654696548715">
       <screen x="0" y="0" width="1600" height="952" />
     </state>

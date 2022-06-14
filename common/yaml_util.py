@@ -33,10 +33,17 @@ class yamlutil():
 
     # 读取一个yaml文件中多个接口用例的方法
     def read_ecase_more(self,filename,groupname):
-        with open(path_util().get_path()+'\\case\\'+filename, mode='r', encoding='utf-8') as f:
-            info = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
-            value = info[groupname]
-            return value;
+
+        if  groupname is not  None:
+            with open(path_util().get_path()+'\\case\\'+filename, mode='r', encoding='utf-8') as f:
+                info = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
+                value = info[groupname]
+                return value;
+        else:
+            with open(path_util().get_path() + '\\case\\' + filename, mode='r', encoding='utf-8') as f:
+                value = yaml.load(stream=f.read(), Loader=yaml.FullLoader)
+                return value;
+
 
 
 
